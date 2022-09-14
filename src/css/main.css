@@ -51,14 +51,76 @@
 .layout_inner {
   max-width: 960px;
   margin: 0 auto;
-  padding: 30px 20px;
+ 
 }
 .layout_header {
   margin-bottom: 30px;
+  margin-top: 30px;
   text-align: center;
+    background-color: #272626;
+  height: 100px;
+  width: 1000px;
+    margin-left: 5px;
+   
+         
 }
+
+
+.layout_title{
+    margin-top: 10px;
+margin-bottom: 50px;
+    color: white;
+    
+}
+
+
+
 
 /* Begin styling the report items here! */
 .reports {
-
+    
+       
 }
+.
+
+* {
+            box-sizing: border-box;
+        }
+
+        .columna {
+            float: left;
+            width: 30%;
+            margin-bottom: 10px;
+            margin-left: 30px;
+            
+        }
+
+        .fila::after {
+            content: "";
+            
+            
+        }
+
+        .reports_cover {
+            /* To be responsiv */
+            width: 100%;
+        }
+body {
+    background-color: #3B3B3A;
+}
+
+
+
+
+
+footer {
+    background-color: #272626;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+
+
+
